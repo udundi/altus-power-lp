@@ -15,7 +15,7 @@
       <rect width="100%" height="100%" stroke-width="0" fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
     </svg>
     <!-- sm:py-32 -->
-    <div class="mx-auto max-w-7xl px-6 py-4 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-12">
+    <div class="mx-auto max-w-7xl px-6 py-12 sm:py-4 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-12">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
         <div class="flex justify-center mx-auto sm:mx-0">
           <div class="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 uppercase font-bold text-white text-center ring-1 ring-white hover:ring-gray-100">
@@ -34,38 +34,8 @@
 
         <h2 class="mt-10 text-3xl tracking-tight text-white text-center sm:hidden font-gt-walsheim font-medium">See If I Qualify</h2>
 
-        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+        <EmailForm methodName="contact" formType="hero" />
 
-          <div class="sm:col-span-3">
-            <label for="first-name" class="block text-sm font-regular leading-6 text-white font-roboto">First name</label>
-            <div class="mt-2">
-              <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6" />
-            </div>
-          </div>
-
-          <div class="sm:col-span-3">
-            <label for="last-name" class="block text-sm font-regular leading-6 text-white font-roboto">Last name</label>
-            <div class="mt-2">
-              <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6" />
-            </div>
-          </div>
-
-          <div class="sm:col-span-3">
-            <label for="email" class="block text-sm font-regular leading-6 text-white font-roboto">Email address</label>
-            <div class="mt-2">
-              <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6" />
-            </div>
-          </div>
-
-          <div class="sm:col-span-3">
-            <label for="phone" class="block text-sm font-regular leading-6 text-white font-roboto">Phone number</label>
-            <div class="mt-2">
-              <input id="phone" name="phone" type="phone" autocomplete="phone" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6" />
-            </div>
-          </div>
-        </div>
-
-        <button class="bg-altus-green text-white px-16 py-4 my-8 w-full sm:w-64 rounded-full tracking-wider uppercase font-roboto font-bold text-sm">See If I Qualify</button>
       </div>
       <!-- mt-16 sm:mt-24 lg:flex-shrink-0 -->
       <div class="lg:mt-0 lg:flex-grow hidden sm:block">
@@ -76,6 +46,8 @@
 </template>
 
 <script setup>
+import EmailForm from './EmailForm.vue';
+
 // import { ref } from 'vue'
 // import { Dialog, DialogPanel } from '@headlessui/vue'
 // import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
