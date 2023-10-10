@@ -7,7 +7,7 @@
         </div>
       </div>
       <div class="flex flex-col justify-center desktop:w-3/5 py-16 px-6 sm:px-12">
-        <h1 class="leading-tight font-gt-walsheim font-medium text-4xl">See If You Qualify</h1>
+        <h1 class="leading-tight font-gt-walsheim font-medium text-4xl">Sign Up Today!</h1>
         
         <EmailForm formType="alt" methodName="contact" />
       </div>

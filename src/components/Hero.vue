@@ -26,7 +26,7 @@
           </div>
         </div>
         
-        <h1 class="mt-10 max-w-lg text-4xl font-medium tracking-tight text-white sm:text-5xl text-center sm:text-left font-gt-walsheim">Switch to Community Solar and Save $327/yr on Average</h1>
+        <h1 class="mt-10 max-w-lg text-4xl font-medium tracking-tight text-white sm:text-5xl text-center sm:text-left font-gt-walsheim">Switch to Community Solar and Save <u>$327/yr</u> on Average</h1>
 
         <div class="mt-12 lg:mt-0 lg:flex-grow sm:hidden">
           <lottie-player src="lottie/Altus-Power-Motion-Graphic.json" autoplay loop/>
@@ -40,6 +40,18 @@
       <!-- mt-16 sm:mt-24 lg:flex-shrink-0 -->
       <div class="lg:mt-0 lg:flex-grow max-w-2xl hidden sm:block">
         <lottie-player src="lottie/Altus-Power-Motion-Graphic.json" autoplay loop/>
+      </div>
+    </div>
+    <!-- Logos -->
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 pb-12">
+      <!-- <h2 class="text-center text-lg font-semibold leading-8 text-gray-900">Trusted by the world’s most innovative teams</h2> -->
+      <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+        <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/wsj-white.png" alt="Wall Street Journal" width="158" height="48" />
+        <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/bloomberg-white.png" alt="Bloomberg" width="158" height="48" />
+        <img class="col-span-2 max-h-20 w-full object-contain lg:col-span-1" src="@/assets/cnbc-white.png" alt="CNBC" width="158" height="48" />
+        <img class="col-span-2 max-h-10 w-full object-contain lg:col-span-1" src="@/assets/forbes-white.png" alt="Forbes" width="158" height="48" />
+        <img class="col-span-2 max-h-18 w-full object-contain lg:col-span-1" src="@/assets/td-ameritrade-white.png" alt="TD Ameritrade" width="158" height="48" />
+        <img class="col-span-2 max-h-18 w-full object-contain lg:col-span-1" src="@/assets/cheddar-white.png" alt="Cheddar News" width="158" height="48" />
       </div>
     </div>
   </div>
