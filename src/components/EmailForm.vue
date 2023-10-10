@@ -69,7 +69,7 @@ export default {
         {loading && <AlertLoading/>}
         {!success && (
           <form onSubmit={event => { event.preventDefault(); submit(event) }} class={data.formType}>
-            <div class='mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6'>
+            <div class='mt-6 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6'>
 
               <div class='sm:col-span-3'>
                 <label for='first-name' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>First name</label>

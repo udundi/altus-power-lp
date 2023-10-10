@@ -6,8 +6,8 @@
           <img class="w-full" src="@/assets/qualify-small.png">
         </div>
       </div>
-      <div class="flex flex-col justify-center desktop:w-3/5 py-16 px-12">
-        <h1 class="leading-tight font-gt-walsheim font-medium text-4xl mb-4">See If You Qualify</h1>
+      <div class="flex flex-col justify-center desktop:w-3/5 py-16 px-6 sm:px-12">
+        <h1 class="leading-tight font-gt-walsheim font-medium text-4xl">See If You Qualify</h1>
         
         <EmailForm formType="alt" methodName="contact" />
       </div>
