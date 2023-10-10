@@ -126,7 +126,7 @@ export default {
             </div>
 
             <div class='grid gap-3'>
-              <button type='submit' class='bg-altus-green text-white px-16 py-4 my-8 w-full sm:w-64 rounded-full tracking-wider uppercase font-roboto font-bold text-sm'>Sign Up</button>
+              <button type='submit' class='bg-altus-green text-white px-16 py-4 my-8 w-full sm:w-64 rounded-full tracking-wider uppercase font-roboto font-bold text-sm'>Check Availability</button>
             </div>
           </form>
         )}

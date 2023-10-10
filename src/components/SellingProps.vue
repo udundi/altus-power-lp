@@ -5,14 +5,14 @@
         <div class='mb-3 h-20'>
           <img class="h-full" src="@/assets/no-cost.svg" alt="No Cost to Join" />
         </div>
-        <h5 class='mt-2 leading-tight text-2xl font-gt-walsheim font-medium'>Save up to 20%!</h5>
+        <h5 class='mt-2 leading-tight text-2xl font-gt-walsheim font-medium'>Save up to 20%</h5>
         <p class='mt-3 font-roboto'>Our customers save up to 20% on average on their bill.</p>
       </div>
       <div class='flex flex-col items-center rounded-md p-4'>
         <div class='mb-3 h-20'>
           <img class="h-full" src="@/assets/accessible.svg" alt="For Renters and Owners" />
         </div>
-        <h5 class='mt-2 leading-tight text-2xl font-gt-walsheim font-medium'>For Both Renters & Owners!</h5>
+        <h5 class='mt-2 leading-tight text-2xl font-gt-walsheim font-medium'>For Both Renters & Owners</h5>
         <p class='mt-3 font-roboto'>Whether you own, rent or run a business, anyone can join.</p>
       </div>
       <div class='flex flex-col items-center rounded-md p-4'>
@@ -27,7 +27,6 @@
           <img class="h-full" src="@/assets/cancel-anytime.svg" alt="No Contracts" />
         </div>
         <h5 class='mt-2 leading-tight text-2xl font-gt-walsheim font-medium'>No upfront costs. <br/>No hidden fees. <br/>Cancel Anytime.</h5>
-        <p class='mt-3 font-roboto'>Simple as that.</p>
       </div>
     </div>
   </div>

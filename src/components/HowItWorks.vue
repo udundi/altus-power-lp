@@ -12,10 +12,10 @@
         <p class="mb-3">When you sign up, you tap into a solar farm in your local community and receive credits directly towards your bill each month. We bill you for a portion of those credits, but you still pay less on your utility bill.</p>
         <p>Most Altus customers save up to 20% on average. No upfront costs. No hidden fees. Cancel anytime.</p>
 
-        <h2 class="mt-4 font-gt-walsheim font-medium text-2xl mb-1">Connect to Community Solar</h2>
-        <p class="font-roboto mb-3">We will connect your utility account to a community solar project in your area</p>
+        <!-- <h2 class="mt-4 font-gt-walsheim font-medium text-2xl mb-1">Connect to Community Solar</h2>
+        <p class="font-roboto mb-3">We will connect your utility account to a community solar project in your area</p> -->
 
-        <h2 class="mt-4 font-gt-walsheim font-medium text-2xl mb-1"><span class="text-altus-green"><u>Save $327/year</u></span> on Average!</h2>
+        <h2 class="mt-4 font-gt-walsheim font-medium text-2xl mb-1"><span class="text-altus-green text-3xl"><u>Save $327/year</u></span> on Average!</h2>
         <p class="font-roboto mb-3">Start saving hundreds per year on your utility bill by connecting to Community Solar in your area.</p>
 
         <h2 class="mt-4 font-gt-walsheim font-medium text-2xl mb-1">Easy to Sign Up</h2>
