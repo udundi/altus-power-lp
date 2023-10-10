@@ -29,7 +29,7 @@
         <h1 class="mt-10 max-w-lg text-4xl font-medium tracking-tight text-white sm:text-5xl text-center sm:text-left font-gt-walsheim">Switch to Community Solar and Save $327/yr on Average</h1>
 
         <div class="mt-12 lg:mt-0 lg:flex-grow sm:hidden">
-          <img src="@/assets/Altus-Power-Motion-Graphic.svg" alt="" />
+          <lottie-player src="lottie/Altus-Power-Motion-Graphic.json" autoplay loop/>
         </div>
 
         <h2 class="mt-10 text-3xl tracking-tight text-white text-center sm:hidden font-gt-walsheim font-medium">See If I Qualify</h2>
@@ -38,8 +38,8 @@
 
       </div>
       <!-- mt-16 sm:mt-24 lg:flex-shrink-0 -->
-      <div class="lg:mt-0 lg:flex-grow hidden sm:block">
-        <img src="@/assets/Altus-Power-Motion-Graphic.svg" alt="" />
+      <div class="lg:mt-0 lg:flex-grow max-w-2xl hidden sm:block">
+        <lottie-player src="lottie/Altus-Power-Motion-Graphic.json" autoplay loop/>
       </div>
     </div>
   </div>
@@ -47,11 +47,6 @@
 
 <script setup>
 import EmailForm from './EmailForm.vue';
-
-// import { ref } from 'vue'
-// import { Dialog, DialogPanel } from '@headlessui/vue'
-// import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
-// import { ChevronRightIcon } from '@heroicons/vue/20/solid'
 </script>
 
 <style lang='scss' scoped>
@@ -109,13 +104,6 @@ import EmailForm from './EmailForm.vue';
     }
   }
 }
-
-// @media (min-width: 640px) {
-//   .animation-wrapper {
-//     height: 100vh;
-//     top: calc(50% - 100vh / 2);
-//   }
-// }
 
 @keyframes rotating-group {
   0% {

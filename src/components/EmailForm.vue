@@ -77,7 +77,7 @@ export default {
                   {data.formType == 'hero' ?
                   <input type='text' name='first-name' id='first-name' autocomplete='given-name' v-model={data.firstName} onBlur={() => v$.value.firstName.$touch()} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
                   : 
-                  <input type='text' name='first-name' id='first-name' autocomplete='given-name' v-model={data.firstName} onBlur={() => v$.value.firstName.$touch()} class='block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto' />
+                  <input type='text' name='first-name-alt' id='first-name-alt' autocomplete='given-name' v-model={data.firstName} onBlur={() => v$.value.firstName.$touch()} class='block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto' />
                   }
                   {v$.value.firstName.$error && <span class='text-xs italic text-red-500'>First Name is required</span>}
                 </div>
@@ -89,7 +89,7 @@ export default {
                   {data.formType == 'hero' ?
                   <input type='text' name='last-name' id='last-name' autocomplete='family-name' v-model={data.lastName} onBlur={() => v$.value.lastName.$touch()} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
                   :
-                  <input type="text" name="last-name" id="last-name" autocomplete="family-name" v-model={data.lastName} onBlur={() => v$.value.lastName.$touch()} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
+                  <input type="text" name="last-name-alt" id="last-name-alt" autocomplete="family-name" v-model={data.lastName} onBlur={() => v$.value.lastName.$touch()} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
                   }
                   {v$.value.lastName.$error && <span class='text-xs italic text-red-500'>Last Name is required</span>}
                 </div>
@@ -101,7 +101,7 @@ export default {
                   {data.formType == 'hero' ?
                   <input id='email' name='email' type='email' autocomplete='email' v-model={data.email} onBlur={() => v$.value.email.$touch()} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
                   :
-                  <input id="email" name="email" type="email" autocomplete="email" v-model={data.email} onBlur={() => v$.value.email.$touch()} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
+                  <input id="email-alt" name="email-alt" type="email" autocomplete="email" v-model={data.email} onBlur={() => v$.value.email.$touch()} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
                   }
                   {v$.value.email.$error && (
                     <div>
@@ -118,7 +118,7 @@ export default {
                   {data.formType == 'hero' ?
                   <input id='phone' name='phone' type='phone' autocomplete='phone' v-model={data.phone} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
                   :
-                  <input id="phone" name="phone" type="phone" autocomplete="phone" v-model={data.phone} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
+                  <input id="phone-alt" name="phone-alt" type="phone" autocomplete="phone" v-model={data.phone} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
                   }
                 </div>
               </div>
