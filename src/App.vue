@@ -8,13 +8,11 @@ import CallToAction from './components/CallToAction.vue'
 import CustomerReviews from './components/CustomerReviews.vue'
 import Faqs from './components/Faqs.vue'
 import Qualify from './components/Qualify.vue'
-// import Logos from './components/Logos.vue'
 </script>
 
 <template>
   <Navigation/>
   <Hero/>
-  <!-- <Logos/> -->
   <SellingProps/>
   <HowItWorks/>
   <CallToAction/>
