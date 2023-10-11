@@ -31,7 +31,7 @@ jobs:
     - name: Invalidate CloudFront Distribution
       uses: chetan/invalidate-cloudfront-action@v1.2
       env:
-        DISTRIBUTION_ID: E1KZ0C36OTLSTR
+        DISTRIBUTION: E1KZ0C36OTLSTR
         PATHS: '/*'
         AWS_REGION: 'us-east-1' # CloudFront invalidations require us-east-1 regardless of where your distribution is
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
