@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <a href="https://qa.altuspower.com/communitysolar/onboarding/availability" class="bg-altus-green text-white px-6 sm:px-12 py-3 rounded-full tracking-wider uppercase font-roboto font-bold text-sm">Sign Up</a>
+          <a href="//qa.altuspower.com/communitysolar/onboarding/availability" class="bg-altus-green text-white px-6 sm:px-12 py-3 rounded-full tracking-wider uppercase font-roboto font-bold text-sm">Sign Up</a>
         </div>
       </div>
     </div>

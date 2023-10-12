@@ -35,7 +35,7 @@ export const useForms = defineStore('forms', () => {
       // console.log('result >>', result)
 
       // state.contact.success = true
-      window.location = '//app.altuspower.com/communitysolar/onboarding/availability?=f=' + data.firstName + '&l=' + data.lastName + '&e=' + data.email + '&p=' + data.phone + '&z=' + data.zip
+      window.location = '//qa.altuspower.com/communitysolar/onboarding/availability?=f=' + data.firstName + '&l=' + data.lastName + '&e=' + data.email + '&p=' + data.phone + '&z=' + data.zip
     } catch (error) {
       console.log('error >>', error)
       state.contact.error = error

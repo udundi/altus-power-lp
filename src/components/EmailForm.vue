@@ -73,7 +73,7 @@ export default {
             <div class='mt-6 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6'>
 
               <div class='sm:col-span-3'>
-                <label for='phone' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>Zip Code</label>
+                <label for='phone' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>Zip Code*</label>
                 <div class='mt-2'>
                   {data.formType == 'hero' ?
                   <input id='zip' name='zip' type='zip' autocomplete='postal-code' v-model={data.zip} onBlur={() => v$.value.zip.$touch()} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
@@ -85,7 +85,7 @@ export default {
               </div>
 
               <div class='sm:col-span-3'>
-                <label for='email' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>Email address</label>
+                <label for='email' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>Email address*</label>
                 <div class='mt-2'>
                   {data.formType == 'hero' ?
                   <input id='email' name='email' type='email' autocomplete='email' v-model={data.email} onBlur={() => v$.value.email.$touch()} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
@@ -102,7 +102,7 @@ export default {
               </div>
 
               <div class='sm:col-span-3'>
-                <label for='first-name' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>First name</label>
+                <label for='first-name' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>First name*</label>
                 <div class='mt-2'>
                   {data.formType == 'hero' ?
                   <input type='text' name='first-name' id='first-name' autocomplete='given-name' v-model={data.firstName} onBlur={() => v$.value.firstName.$touch()} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
@@ -126,7 +126,8 @@ export default {
             </div>
 
             <div class='grid gap-3'>
-              <button type='submit' class='bg-altus-green text-white px-16 py-4 my-8 w-full sm:w-72 rounded-full tracking-wider uppercase font-roboto font-bold text-sm'>Check Availability</button>
+              <button type='submit' class='bg-altus-green text-white px-16 py-4 mt-8 mb-4 w-full sm:w-72 rounded-full tracking-wider uppercase font-roboto font-bold text-sm'>Join Today</button>
+              <p class={`text-xs ${conditionalClass}`}>By submitting your contact information, you consent to receiving emails from Altus Power Inc. about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our <a class='underline' target='_blank' href='//www.altuspower.com/privacy-policy'>Privacy Policy</a>.</p>
             </div>
           </form>
         )}
