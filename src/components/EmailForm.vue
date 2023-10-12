@@ -2,7 +2,7 @@
 <script lang='jsx'>
 import { reactive } from 'vue'
 import { useVuelidate } from '@vuelidate/core'
-import { required, email, minLength } from '@vuelidate/validators'
+import { required, email, numeric, minLength, maxLength } from '@vuelidate/validators'
 import { useForms } from '@/stores/Forms.js'
 
 export default {
@@ -37,7 +37,7 @@ export default {
     const rules = {
       firstName: { required },
       email: { required, email, minLength: minLength(5) },
-      zip: { required }
+      zip: { required, numeric, minLength: minLength(5), maxLength: maxLength(5) }
       // receiveEmails: { required }
     }
 
@@ -80,7 +80,12 @@ export default {
                   :
                   <input id="zip-alt" name="zip-alt" type="zip" autocomplete="postal-code" v-model={data.zip} onBlur={() => v$.value.zip.$touch()} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
                   }
-                  {v$.value.zip.$error && <span class='text-xs italic text-red-500'>Zip code is required</span>}
+                  {v$.value.zip.$error && (
+                    <div>
+                      {v$.value.zip.required.$invalid && <span class='block text-xs italic text-red-500 mt-2'>Zip code is required</span>}
+                      {v$.value.zip.$invalid && <span class='text-xs italic text-red-500'>Please enter a valid zip code</span>}
+                    </div>
+                  )}
                 </div>
               </div>
 
@@ -119,7 +124,7 @@ export default {
                   {data.formType == 'hero' ?
                   <input type='text' name='last-name' id='last-name' autocomplete='family-name' v-model={data.lastName} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
                   :
-                  <input type="text" name="last-name-alt" id="last-name-alt" autocomplete="family-name" v-model={data.lastName} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
+                  <input type='text' name='last-name-alt' id='last-name-alt' autocomplete='family-name' v-model={data.lastName} class='block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto' />
                   }
                 </div>
               </div>
