@@ -26,13 +26,11 @@
           </div>
         </div>
         
-        <h1 class="mt-10 max-w-lg text-4xl font-medium tracking-tight text-white sm:text-5xl text-center sm:text-left font-gt-walsheim">Switch to Community Solar and Save <u>$327/yr</u> on Average</h1>
+        <h1 class="mt-10 max-w-lg font-medium tracking-tight text-white text-5xl text-center sm:text-left font-gt-walsheim">Switch to Community Solar and Save <u>$327/yr</u> on Average</h1>
 
         <div class="mt-12 lg:mt-0 lg:flex-grow sm:hidden">
           <lottie-player src="lottie/Altus-Power-Motion-Graphic.json" autoplay loop/>
         </div>
-
-        <h2 class="mt-10 text-3xl tracking-tight text-white text-center sm:hidden font-gt-walsheim font-medium">See If I Qualify</h2>
 
         <EmailForm methodName="contact" formType="hero" />
 
