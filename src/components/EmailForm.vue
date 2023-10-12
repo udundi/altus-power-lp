@@ -98,7 +98,7 @@ export default {
                   : 
                   <input type='text' name='first-name-alt' id='first-name-alt' autocomplete='given-name' v-model={data.firstName} onBlur={() => v$.value.firstName.$touch()} class='block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto' />
                   }
-                  {v$.value.firstName.$error && <span class='text-xs italic text-red-500'>First Name is required</span>}
+                  {v$.value.firstName.$error && <span class='text-xs italic text-red-500'>First name is required</span>}
                 </div>
               </div>
 
@@ -138,11 +138,11 @@ export default {
                   :
                   <input id="phone-alt" name="phone-alt" type="phone" autocomplete="phone" v-model={data.phone} onBlur={() => v$.value.phone.$touch()} class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 font-roboto" />
                   }
-                  {/* {v$.value.phone.$error && (
+                  {v$.value.phone.$error && (
                     <div>
                       {v$.value.phone.required.$invalid && <span class='text-xs italic text-red-500'>Phone number is required</span>}
                     </div>
-                  )} */}
+                  )}
                 </div>
               </div>
             </div>

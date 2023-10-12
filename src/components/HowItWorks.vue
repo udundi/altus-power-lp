@@ -9,7 +9,7 @@
       <div class="flex flex-col justify-center desktop:w-2/5 text-center sm:text-left px-6 pt-12 pb-32 sm:pt-0 sm:pb-0">
         <h1 class="leading-tight font-gt-walsheim font-medium text-5xl mb-2">How It Works</h1>
 
-        <p class="mb-3">When you sign up, you tap into a solar farm in your local community and receive credits directly towards your bill each month. We bill you for a portion of those credits, but you still pay less on your utility bill.</p>
+        <p class="mb-3">When you sign up, you tap into a solar farm in your local community and receive credits directly towards your bill each month. We bill you for a portion of those credits and you pay less overall.</p>
         <p>Most Altus customers save up to 20% on average. No upfront costs. No hidden fees. Cancel anytime.</p>
 
         <h2 class="mt-4 font-gt-walsheim font-medium text-2xl mb-1"><span class="text-altus-green text-3xl"><u>Save $327/year</u></span> on Average!</h2>
