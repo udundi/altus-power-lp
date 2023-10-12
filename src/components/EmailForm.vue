@@ -131,7 +131,7 @@ export default {
               </div>
 
               <div class='sm:col-span-3'>
-                <label for='email' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>Phone number</label>
+                <label for='email' class={`block text-sm font-regular leading-6 font-roboto ${conditionalClass}`}>Phone number*</label>
                 <div class='mt-2'>
                   {data.formType == 'hero' ?
                   <input id='phone' name='phone' type='phone' autocomplete='phone' v-model={data.phone} onBlur={() => v$.value.phone.$touch()} class='block w-full rounded-md border-0 bg-white/5 py-1.5 px-3 text-white shadow-sm ring-1 ring-inset ring-white/10 sm:text-sm sm:leading-6' />
