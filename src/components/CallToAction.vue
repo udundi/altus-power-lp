@@ -8,7 +8,7 @@
         <div class="grid gap-6">
           <h1 class="leading-tight text-white font-gt-walsheim font-medium text-4xl">Sign-up today and start getting up to 20% off your electric bill</h1>
           <p class="text-white font-roboto">Just fill out a quick form to sign up! You will need to attach a photo of an electric bill, input your payment information and that’s it!</p>
-          <button class="border border-primary rounded-full w-full sm:w-64 py-4 px-4 bg-white text-altus-green uppercase font-bold font-roboto">Sign Up</button>
+          <a href="//qa.altuspower.com/communitysolar/onboarding/availability" class="border border-primary rounded-full w-full sm:w-64 py-4 px-4 bg-white text-altus-green uppercase font-bold font-roboto">Sign Up</a>
         </div>
       </div>
       <div class="hidden sm:flex items-center desktop:w-1/3">
