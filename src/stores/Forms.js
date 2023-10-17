@@ -17,7 +17,7 @@ export const useForms = defineStore('forms', () => {
     state.contact.loading = true
 
     try {
-      const res = await fetch('https://bnjx3642fumzl5ose6akxhgwiq0rpjcy.lambda-url.us-east-1.on.aws/', {
+      const res = await fetch('https://e99i3hntn7.execute-api.us-east-1.amazonaws.com/default/altusPowerAnalytics', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
