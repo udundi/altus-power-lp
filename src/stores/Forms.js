@@ -31,6 +31,10 @@ export const useForms = defineStore('forms', () => {
         })
       })
 
+      if (!res.ok) {
+        throw new Error(`HTTP error! Status: ${res.status}`)
+      }
+
       const result = await res.json()
       console.log('result >>', result)
 
@@ -39,6 +43,8 @@ export const useForms = defineStore('forms', () => {
       // window.location = '//app.altuspower.com/communitysolar/onboarding/availability?f=' + data.firstName + '&l=' + data.lastName + '&e=' + data.email + '&p=' + data.phone
     } catch (error) {
       console.log('error >>', error)
+      console.log('error.message >>', error.message)
+      console.log('error.status >>', error.status)
       state.contact.error = error
     }
 
