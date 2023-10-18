@@ -23,7 +23,7 @@ export const useForms = defineStore('forms', () => {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          event_name: 'CompleteRegistration',
+          event_name: 'Subscribe',
           first_name: data.firstName,
           last_name: data.lastName,
           email: data.email,
@@ -40,7 +40,7 @@ export const useForms = defineStore('forms', () => {
 
       state.contact.success = true
       // + '&refCode=' + data.refCode
-      window.location = '//app.altuspower.com/communitysolar/onboarding/availability?f=' + data.firstName + '&l=' + data.lastName + '&e=' + data.email + '&p=' + data.phone
+      // window.location = '//app.altuspower.com/communitysolar/onboarding/availability?f=' + data.firstName + '&l=' + data.lastName + '&e=' + data.email + '&p=' + data.phone
     } catch (error) {
       console.log('error >>', error)
       console.log('error.message >>', error.message)
