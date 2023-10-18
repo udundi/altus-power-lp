@@ -20,7 +20,8 @@ export const useForms = defineStore('forms', () => {
       const res = await fetch('https://e99i3hntn7.execute-api.us-east-1.amazonaws.com/default/altusPowerAnalytics', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*'
         },
         body: JSON.stringify({
           event_name: 'Subscribe',
@@ -30,10 +31,6 @@ export const useForms = defineStore('forms', () => {
           phone: data.phone
         })
       })
-
-      if (!res.ok) {
-        throw new Error(`HTTP error! Status: ${res.status}`)
-      }
 
       const result = await res.json()
       console.log('result >>', result)
