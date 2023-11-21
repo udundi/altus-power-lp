@@ -151,7 +151,7 @@ export default {
 
             <div class='grid gap-3'>
               <button type='submit' class='bg-altus-green text-white px-16 py-4 mt-8 mb-4 w-full sm:w-72 rounded-full tracking-wider uppercase font-roboto font-bold text-sm'>Join Today</button>
-              <p class={`text-xs ${conditionalClass}`}>By submitting your contact information, you consent to receiving emails from Altus Power Inc. about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our <a class='underline' target='_blank' href='//www.altuspower.com/privacy-policy'>Privacy Policy</a>.</p>
+              <p class={`text-xs ${conditionalClass}`}>By submitting your contact information, you consent to receiving emails and text messages from Altus Power Inc. about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our <a class='underline' target='_blank' href='//www.altuspower.com/privacy-policy'>Privacy Policy</a>.</p>
             </div>
           </form>
         )}
