@@ -18,10 +18,11 @@
     <div class="mx-auto max-w-7xl px-6 py-12 sm:py-4 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-12">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
         <div class="flex justify-center mx-auto sm:mx-0">
-          <div class="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 uppercase font-bold text-white text-center ring-1 ring-white hover:ring-gray-100">
+          <div class="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 uppercase text-white text-center ring-1 ring-white hover:ring-gray-100">
             <p class="flex items-center gap-x-1 font-roboto">
               <span class="absolute inset-0" aria-hidden="true" />
-              Solar savings without the panels
+              <!-- Solar savings without the panels -->
+              BFCM Sale! $50 sign-up credit with code - <span class="font-bold">FRIDAY</span>
             </p>
           </div>
         </div>
