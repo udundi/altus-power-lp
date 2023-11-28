@@ -22,7 +22,7 @@
             <p class="flex items-center gap-x-1 font-roboto">
               <span class="absolute inset-0" aria-hidden="true" />
               <!-- Solar savings without the panels -->
-              BFCM Sale! $50 sign-up credit with code - <span class="font-bold">FRIDAY</span>
+              <p>BFCM Sale! $50 sign-up credit<br class="md:hidden"> with code - <b>FRIDAY</b></p>
             </p>
           </div>
         </div>
