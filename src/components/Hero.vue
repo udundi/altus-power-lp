@@ -21,8 +21,7 @@
           <div class="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 uppercase text-white text-center ring-1 ring-white hover:ring-gray-100">
             <p class="flex items-center gap-x-1 font-roboto">
               <span class="absolute inset-0" aria-hidden="true" />
-              <!-- Solar savings without the panels -->
-              <p>BFCM Sale! $50 sign-up credit<br class="md:hidden"> with code - <b>FRIDAY</b></p>
+              Solar savings without the panels
             </p>
           </div>
         </div>
